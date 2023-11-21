@@ -120,16 +120,16 @@
 }
 
 .login-container{
-    display: flex;
-    justify-content: space-between;
+    height: 100vh;
+
     background: url(../img/img3.jpg) no-repeat;
-    background-size: 1500px 700px;
+    background-size: 1500px 100%;
 }   
 
 .moto{
-    color: rgba(255, 255, 255, 0.678) !important;
-    padding: 200px 0px 0px 50px;
-    font-size: x-large;
+    color: rgb(255, 255, 255) !important;
+    padding: 180px 0px 0px 70px;
+    font-size: 30px;
     text-transform: uppercase;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .login_form input::placeholder{
-    color: rgba(245, 245, 245, 0.808) !important;
+    color: rgba(255, 255, 255, 0.89) !important;
 }
 
 .login_form button{
@@ -166,3 +166,20 @@
     width: fit-content;
     border-bottom: 2px solid white;
 }
+
+.blur-effect{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+/* .logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: url(../img/logo.svg);
+    background-size: 130px 120px;
+    
+} */
