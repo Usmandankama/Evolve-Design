@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <title>{% block title%} {% endblock %}</title>
+
+
+</head>
+<body>
+<header>
+<img class="logo" src="{{url_for('static', filename='img/logo.svg')}}">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact US</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+    </nav>
+    <a class="account" href="#"> <button>LOGIN</button> </a>
+</header>
+{% block content %}  {% endblock %}
+
+</body>
+<footer class="footer">
+    <div class="footer-content">
+            <p>Follow us on:</p>
+            <a href="#"><i class="material-icons">email</i></a>
+            <a href="#"><i class="material-icons">facebook</i></a>
+
+        </div>
+</footer>
+</html>
