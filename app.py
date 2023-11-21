@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = 'Evolve_design2023!'
 
 #mysql configuration
-mydbcon = mysql.connector.connect(host="localhost", user="root", password="", database="myprofiledb")
+# mydbcon = mysql.connector.connect(host="localhost", user="root", password="", database="myprofiledb")
 
 @app.route('/')
 def base():
