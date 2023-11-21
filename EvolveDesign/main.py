@@ -1,16 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for,session
-from flask_mysqldb import MySQL
+import mysql.connector
+from mysql import MySql
+
 
 app = Flask(__name__)
 app.secret_key = 'Evolve_design2023!'
 
 #mysql configuration
-app.config["MYSQL_HOST"] = 'localhost'
-app.config["MYSQL_USER"] = 'root'
-app.config["MYSQL_PASSWORD"] = ''
-app.config["MYSQL_DB"] = 'evolve_design'
-
-mysql = MySQL(app)
+mydbcon = mysql.connector.connect(host="localhost", user="root", password="", database="myprofiledb")
 
 @app.route('/')
 def base():
