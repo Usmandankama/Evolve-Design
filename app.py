@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for,session
 import mysql.connector
-from mysql import MySql
+# from mysql import MySql
 
 
 app = Flask(__name__)
