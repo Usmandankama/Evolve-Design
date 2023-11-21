@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    font-family: monospace;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+
+.book_page_container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(82, 192, 82);
+}
+
+.nav_list{
+    display: flex;
+    padding: 20px 0px 0px ;
+}
+
+.nav_list li{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.nav_list li a{
+    font-size: 20px;
+    color:white;
+}
+
+.serach_bar{
+    height: 47px;
+    width: 550px;
+    padding: 0px 5px 0px 1px;
+    margin: 80px 0px 0px 450px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.serach_bar form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serach_bar input{
+    padding-left: 5px;
+    height: 40px;
+    width: 452px;
+    border: none;
+    outline: none;
+}
+
+.serach_bar button{
+    border: none;
+    background-color: transparent;
+    color: goldenrod;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.book{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+}
+
+.books_container{
+    display: flex;
+    margin-top: 50px;
+    height: 155px;
+    width: 100%;
+    border: 1px solid wheat;
+    box-shadow: 2px 2px 2px 2px wheat;
+    /* background-color: rgb(226, 226, 226); */
+}
+.books_container h2{
+    margin-bottom: 10px;
+    
+}
+
+.img img{
+    height: 150px;
+    width: 150px;
+    margin: 0px 20px 0px 0px;
+}
+
+.book-description{
+    width: 500px;
+    margin-right: 500px;
+}
+
+.controls{
+    margin-top: 40px;
+}
+
+.controls button{
+    height: 35px;
+    width: 100px;
+}
+
+.controls button a{
+    color: black;
+}
+
+
+.login_form{
+    height: 500px;
+    margin: 80px 0px 0px 0px;
+    width: 400px;
+    padding: 100px 0px 0px 0px;
+    /* text-align: center; */
+}
+
+.login-container{
+    display: flex;
+    justify-content: space-between;
+    background: url(../img/img3.jpg) no-repeat;
+    background-size: 1500px 700px;
+}   
+
+.moto{
+    color: rgba(255, 255, 255, 0.678) !important;
+    padding: 200px 0px 0px 50px;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.login_form label{
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.login_form input{
+    height: 40px;
+    width: 300px;
+    margin: 10px 0px 10px 0px ;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white !important;
+}
+
+.login_form input::placeholder{
+    color: rgba(245, 245, 245, 0.808) !important;
+}
+
+.login_form button{
+    height: 40px;
+    width: 150px;
+    margin: 20px 0px 0px 70px;
+    background-color: rgba(218, 165, 32, 0.788);
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+
+.input{
+    width: fit-content;
+    border-bottom: 2px solid white;
+}

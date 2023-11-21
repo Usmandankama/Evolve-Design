@@ -1,16 +1,31 @@
-{% extends 'base.html' %}
-
-{% block title %} Login {% endblock %}
-
-{% block content %}
-
-<form class="login">
-    <label>username:</label><p>
-    <input placeholder="username" type="text" required><br>
-     <label>password:</label><p>
-    <input placeholder="password" type="password" required><br><br>
-    <input type="submit" value="Submit">
-
-</form>
-
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="moto">
+            <h1>Hello</h1>
+            <h1>World</h1>
+            <h1>Hw is u</h1>
+        </div>
+        <div class="form">
+            <form action="" method="post" class="login_form">
+                <br>
+                <div class="input">
+                    <input type="text" name="username" placeholder="username">
+                </div>
+                <div class="input">
+                    <input type="text" name="password" placeholder="password">
+                </div>
+                <button type="submit">login</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
