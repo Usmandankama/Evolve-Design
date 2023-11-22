@@ -128,7 +128,7 @@
 
 .moto{
     color: rgb(255, 255, 255) !important;
-    padding: 180px 0px 0px 70px;
+    padding: 200px 0px 0px 70px;
     font-size: 30px;
     text-transform: uppercase;
 }
@@ -174,12 +174,3 @@
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.342);
 }
-
-/* .logo{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background: url(../img/logo.svg);
-    background-size: 130px 120px;
-    
-} */

@@ -11,7 +11,7 @@ app.secret_key = 'Evolve_design2023!'
 
 @app.route('/')
 def base():
-    return render_template('index.html')
+    return render_template('base.html')
 
 @app.route('/gallery')
 def gallery():
@@ -20,6 +20,10 @@ def gallery():
 @app.route('/photos')
 def photos():
     return render_template('photos.html')
+
+@app.route('/services')
+def services():
+    return render_template('services.html')
 
 @app.route('/videos')
 def videos():
@@ -32,4 +36,3 @@ def login():
 if __name__ == '__main__':
     app.run(debug=True)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

@@ -4,33 +4,112 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-
-    <title>{% block title%} {% endblock %}</title>
-
-
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Evolvedesign</title>
 </head>
 <body>
-<header>
-<img class="logo" src="{{url_for('static', filename='img/logo.svg')}}">
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Contact US</a></li>
-            <li><a href="#">Projects</a></li>
-        </ul>
-    </nav>
-    <a class="account" href="#"> <button>LOGIN</button> </a>
-</header>
-{% block content %}  {% endblock %}
-
-</body>
-<footer class="footer">
-    <div class="footer-content">
+    <main>
+        <div class="hero-container">
+            <header>
+                <div class="logo"></div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
+                </nav>
+                <button class="nav-login-btn"><a href="/login">Login</a></button>
+            </header>
+            <div class="descriptions">
+                <h1>Design your home with passion</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A obcaecati 
+                    doloremque similique molestiae dolores aliquid sequi aperiam eveniet 
+                    tempora unde placeat consequatur ducimus culpa hic, deserunt, aliquam 
+                    ratione, provident iste?
+                </p>
+            </div>
+        </div>
+        <div class="services">
+            <h1>Services</h1>
+            <div class="service">
+                <div class="service-description">
+                    <h2>Service title</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                        libero labore consectetur nostrum blanditiis aliquam a ipsum repellendus 
+                        rerum et at neque alias, optio ex quas, quae voluptates reiciendis ad.
+                    </p>
+                </div>
+                <img src="../static/img/16.jpg" height="300px" width="500px">
+            </div>
+            <div class="service">
+                <img src="../static/img/14.jpg" height="300px" width="500px">
+                <div class="service-description">
+                    <h2>Service title</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                        libero labore consectetur nostrum blanditiis aliquam a ipsum repellendus 
+                        rerum et at neque alias, optio ex quas, quae voluptates reiciendis ad.
+                    </p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-description">
+                    <h2>Service title</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                        libero labore consectetur nostrum blanditiis aliquam a ipsum repellendus 
+                        rerum et at neque alias, optio ex quas, quae voluptates reiciendis ad.
+                    </p>
+                </div>
+                <img src="../static/img/img12.jpg" height="300px" width="500px">
+            </div>
+            <div class="service">
+                <img src="../static/img/img10.jpg" height="300px" width="500px">
+                <div class="service-description">
+                    <h2>Service title</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                        libero labore consectetur nostrum blanditiis aliquam a ipsum repellendus 
+                        rerum et at neque alias, optio ex quas, quae voluptates reiciendis ad.
+                    </p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-description">
+                    <h2>Service title</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                        libero labore consectetur nostrum blanditiis aliquam a ipsum repellendus 
+                        rerum et at neque alias, optio ex quas, quae voluptates reiciendis ad.
+                    </p>
+                </div>
+                <img src="../static/img/16.jpg" height="300px" width="500px">
+            </div>
+            <div class="service">
+                <img src="../static/img/16.jpg" height="300px" width="500px">
+                <div class="service-description">
+                    <h2>Service title</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                        libero labore consectetur nostrum blanditiis aliquam a ipsum repellendus 
+                        rerum et at neque alias, optio ex quas, quae voluptates reiciendis ad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
             <p>Follow us on:</p>
             <a href="#"><i class="material-icons">email</i></a>
             <a href="#"><i class="material-icons">facebook</i></a>
-
         </div>
+    </footer>
+    <script src="../static/js/app.js"></script>
+</body>
 </footer>
 </html>
