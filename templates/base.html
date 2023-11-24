@@ -1,37 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% extends "index.html" %}
 
-    <link rel="stylesheet" href="../static/css/style.css">
-    <title>Evolvedesign</title>
-</head>
-<body>
-    <main>
-        <div class="hero-container">
-            <header>
-                <div class="logo"></div>
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact US</a></li>
-                    </ul>
-                </nav>
-                <button class="nav-login-btn"><a href="/login">Login</a></button>
-            </header>
-            <div class="descriptions">
-                <h1>Design your home with passion</h1>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A obcaecati 
-                    doloremque similique molestiae dolores aliquid sequi aperiam eveniet 
-                    tempora unde placeat consequatur ducimus culpa hic, deserunt, aliquam 
-                    ratione, provident iste?
-                </p>
-            </div>
-        </div>
+{% block content%}
         <div class="services">
             <h1>Services</h1>
             <div class="service">
@@ -101,15 +70,4 @@
                 </div>
             </div>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="footer-content">
-            <p>Follow us on:</p>
-            <a href="#"><i class="material-icons">email</i></a>
-            <a href="#"><i class="material-icons">facebook</i></a>
-        </div>
-    </footer>
-    <script src="../static/js/app.js"></script>
-</body>
-</footer>
-</html>
+   {% endblock %}
